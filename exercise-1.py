@@ -1,0 +1,10 @@
+x1 = str
+x2 = str
+x3 = set
+x4 = set
+x5 = set
+x6 = list
+x7 = str
+x8 = str
+x9 = list
+x10 = tuple
