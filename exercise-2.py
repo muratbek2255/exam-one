@@ -1,17 +1,16 @@
 print('Привет, мы рады приветствовать на нашем банке!')
-summa2 = float(input('Vvedite summu: '))
-summa3 = float(input("percent :"))
-summa4 = float(input("end summa:"))
+summa1 = float(input('Vvedite summu: '))
+summa2 = float(input("percent :"))
+summa3 = float(input("end summa:"))
 month = 0
 
-x = ((summa3/12)*summa2)
-x += 1
+while summa1 < summa3 :
+    month += 1
+    deposit_amount = (summa2/100)/12*summa1+summa1
+    print(f'{month}  {summa1}')
 
-while x < summa4:
-    x += ((summa3/12)*x)
-    month+=1
 
-print(month)
+print(f'необходимо:{month} месяцев для накопления {summa3}')
 
 
 
