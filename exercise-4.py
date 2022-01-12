@@ -17,7 +17,7 @@ def search_char(message):
         if char.lower() in letters:
             letters+=1
 
-    bot.reply_to(message,f'Количество гласных букв; {letters}')
+    bot.reply_to(message,f'Количество гласных букв: {letters}')
 
 
 bot.infinity_polling()
